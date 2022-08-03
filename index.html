@@ -7,40 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/09366e533f.js" crossorigin="anonymous"></script>
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+
+
+    <!--  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--  -->
 </head>
 
 <body>
-    <Header class="header-wrapper">
+    <header class="header-wrapper">
         <div class="logo">
-            <img src="/Images/Loyal LOGO.png" alt="logo" />
+            <img src="./Images/LoyalLOGO.png" alt="logo" />
 
         </div>
         <div class="right-header">
-            <div class="contact">
-                <div class="cont">
+            <div class="contactWrapper">
+                <div class="contact">
                     <span class="icons"><i class="fa-solid fa-phone"></i></span>
-                    <span class="phone con">
+                    <div class="phone contactList">
                         <div>Phone number </div>
                         <div>612-345-4286</div>
-
-                    </span>
+                    </div>
                 </div>
-                <div class="cont">
+                <div class="contact">
                     <span class="icons"><i class="fa-solid fa-envelope"></i></span>
-                    <span class="email con">
+                    <div class="email contactList">
                         <div>Email</div>
                         <a>loyalgrouphome@gmail.com</a>
 
-                    </span>
+                    </div>
                 </div>
-                <div class="cont">
+                <div class="contact">
                     <span class="icons"><i class="fa-solid fa-location-dot"></i></span>
-                    <span class="address con">
+                    <div class="address contactList">
                         <div>3055 old HWY 8 STE 103</div>
                         <div>St. Anthony, MN</div>
 
-                    </span>
+                    </div>
                 </div>
                 <div class="media">
                     <span class="socials facebook"> <a href=""><i class="fa-brands fa-facebook"></i></a></i></span>
@@ -51,7 +58,8 @@
 
 
             </div>
-            <nav class="nav">
+             
+            <nav class="nav"  >
                 <ul>
                     <li> <a href="">Home</a></li>
                     <li><a href="">About us</a></li>
@@ -66,12 +74,47 @@
 
         </div>
 
-    </Header>
-    <section></section>
+           
+            
+
+    </header>
+  
+
+    
+    <section>
+        <!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active"><div class="logo">
+        <img src="./Images/LoyalLOGO.png" alt="logo" />
+
+    </div></a>
+      <div id="myLinks">
+        <!-- <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a> -->
+        <ul>
+            <li> <a href="">Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Testimonial</a></li>
+
+            <li><a href="">Contact us</a></li>
+        </ul>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </section>
+         
     <footer></footer>
 
 
-
+<script src="./js/script.js"></script>
 </body>
 
 </html>
