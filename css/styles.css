@@ -224,10 +224,4 @@
 } */
 
 /* Added only to work with the footer temporarily. */
-.footerWrapper {
-  background-color: #f8db85;
-  height: 800px;
-}
-.footerList {
-  display: none !important;
-}
+ 
