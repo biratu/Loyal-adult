@@ -7,7 +7,6 @@
 .header-wrapper {
   display: flex;
   justify-content: space-between;
-  /* padding-top: 20px; */
   background-color: #f8db85;
   font-family: sans-serif;
   width: 100vw !important;
@@ -56,9 +55,7 @@
 }
 .hamburgerWrapper button {
   display: none;
-  /* position: fixed; */
 }
-
 .nav {
   height: 75px;
   align-items: center;
@@ -106,13 +103,6 @@
 
 /* Media query */
 
-/* @media (max-width: 390px) {
-  .container {
-    max-width: 540px;
-  }
-}
-*/
-
 @media (max-width: 768px) {
   /* Header */
   body {
@@ -132,31 +122,24 @@
   .contactWrapper {
     display: none;
   }
-
   .nav ul {
     display: none;
   }
-
   .mobile-container {
     max-width: 768px;
     margin: auto;
-    /* background-color: #555; */
     height: 500px;
     color: white;
     border-radius: 10px;
   }
-
   .topnav {
     overflow: hidden;
     background-color: #4a087d;
-    /* background-color: #333; */
     position: relative;
   }
-
   .topnav #myLinks {
     display: none;
   }
-
   .topnav a {
     color: white;
     padding: 14px 16px;
@@ -164,7 +147,6 @@
     font-size: 17px;
     display: block;
   }
-
   .topnav a.icon {
     background: #f8db85;
     color: #4a087d;
@@ -174,19 +156,11 @@
     right: 30px;
     top: 20px;
   }
-
-  /* .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  } */
-
   .active {
     background-color: #f8db85;
     color: white;
   }
-  /* footer */
   .footerWrapper {
-    /* color: #4a087d; */
     background-color: #f8db85;
     padding: 25px 20px 40px 25px;
     color: #4a087d;
@@ -196,16 +170,11 @@
     display: block;
     height: 300px;
   }
-
   .footerWrapper h5 {
     font-weight: 800;
     font-size: 17px;
     padding-top: 10px;
   }
-  /* .footerWrapper ul li {
-    list-style: none;
-    padding-left: 20px;
-  } */
   .footerWrapper ul {
     display: none;
   }
@@ -216,12 +185,3 @@
     display: none;
   }
 }
-
-/* @media (min-width: 1200px) {
-  .mobile-container  {
-    max-width: 1140px;
-  }
-} */
-
-/* Added only to work with the footer temporarily. */
- 
