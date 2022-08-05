@@ -83,6 +83,22 @@
 }
 
 /* Header end */
+
+/* Body start  */
+/* .First-section-container {
+  max-width: 2000px;
+  height: 800px;
+} */
+.First-section-container {
+  background-image: url(/Images/adultLove2.jpg);
+  height: 714px;
+  width: 1920px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Body end */
 /* Footer start */
 .footerWrapper {
   background-color: #f8db85;
@@ -162,18 +178,22 @@
   }
   .footerWrapper {
     background-color: #f8db85;
-    padding: 25px 20px 40px 25px;
+    padding: 25px 20px 10px 25px;
     color: #4a087d;
     position: absolute;
     bottom: 0px;
-    width: 100%;
+    width: 100% !important;
     display: block;
-    height: 300px;
+    height: auto;
   }
   .footerWrapper h5 {
     font-weight: 800;
     font-size: 17px;
     padding-top: 10px;
+  }
+  .footerWrapper h5:hover {
+    cursor: pointer;
+    color: #fff;
   }
   .footerWrapper ul {
     display: none;
