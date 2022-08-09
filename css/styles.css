@@ -2,8 +2,12 @@
   /* test */
   margin: 0;
   padding: 0;
+  
 }
 /* Header */
+.header{
+  width:300px!important;
+}
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -91,13 +95,54 @@
 } */
 .First-section-container {
   background-image: url(/Images/adultLove2.jpg);
-  height: 714px;
-  width: 1920px;
-  background-position: bottom;
+  height:714px;
+  width:100%;
+  background-position:center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  /* background-size: 100% 100%; */
+  border: 5px solid black;
+  background-size: cover;
+  /* padding-bottom:-750px; */
+}
+.Second-section{
+  
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.Second-section-left{
+  border: 2px black;
+  /* background-color: blue; */
+  
+  margin-left: 50px;
+  margin-right:10px;
+  padding-right:10px;
+  width:45%;
+}
+.Second-section-left img{
+  width: 100%;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 335px;
+  border-bottom-right-radius: 335px;
+}
+.Second-section-right{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px black;
+  /* background-color: red; */
+  margin-left:10px;
+  padding-top: 100px;
+  padding-left:10px;
+  margin-right:50px;
+  width:45%;
+}
+.Second-section-right h5{
+  color:purple;
+
+
 }
 
+
+ 
 /* Body end */
 /* Footer start */
 .footerWrapper {
@@ -105,7 +150,7 @@
   display: flex;
   padding: 25px 20px 40px 25px;
   color: #4a087d;
-  position: absolute;
+  position: relative;
   bottom: 0px;
   width: 100%;
   justify-content: space-between;
@@ -144,7 +189,7 @@
   .mobile-container {
     max-width: 768px;
     margin: auto;
-    height: 500px;
+    /* height: 500px; */
     color: white;
     border-radius: 10px;
   }
@@ -176,11 +221,33 @@
     background-color: #f8db85;
     color: white;
   }
+  /* header end */
+  /* body start */
+
+  .First-section-container{
+    background-image: url(/Images/sml.jpg);
+    /* width:100%; */
+  background-position:center center;
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  border: 5px solid black;
+  background-size: cover;
+  }
+  .Second-section-right{
+    display: none;
+    
+  }
+  .Second-section-left{
+    width: 100%;
+  }
+
+  /* body end */
+  /* footer start */
   .footerWrapper {
     background-color: #f8db85;
     padding: 25px 20px 10px 25px;
     color: #4a087d;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     width: 100% !important;
     display: block;
@@ -198,6 +265,7 @@
   .footerWrapper ul {
     display: none;
   }
+
 }
 
 @media (min-width: 768px) {
