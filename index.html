@@ -7,40 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/09366e533f.js" crossorigin="anonymous"></script>
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+
+
+    <!--  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--  -->
 </head>
 
-<body>
-    <Header class="header-wrapper">
-        <div class="logo">
-            <img src="/Images/Loyal LOGO.png" alt="logo" />
 
+<body>
+    <div class="header">
+    <header class="header-wrapper">
+        <div class="logo">
+            <img src="./Images/LoyalLOGO.png" alt="logo" />
         </div>
         <div class="right-header">
-            <div class="contact">
-                <div class="cont">
+            <div class="contactWrapper">
+                <div class="contact">
                     <span class="icons"><i class="fa-solid fa-phone"></i></span>
-                    <span class="phone con">
+                    <div class="phone contactList">
                         <div>Phone number </div>
                         <div>612-345-4286</div>
-
-                    </span>
+                    </div>
                 </div>
-                <div class="cont">
+                <div class="contact">
                     <span class="icons"><i class="fa-solid fa-envelope"></i></span>
-                    <span class="email con">
+                    <div class="email contactList">
                         <div>Email</div>
                         <a>loyalgrouphome@gmail.com</a>
-
-                    </span>
+                    </div>
                 </div>
-                <div class="cont">
+                <div class="contact">
                     <span class="icons"><i class="fa-solid fa-location-dot"></i></span>
-                    <span class="address con">
+                    <div class="address contactList">
                         <div>3055 old HWY 8 STE 103</div>
                         <div>St. Anthony, MN</div>
-
-                    </span>
+                    </div>
                 </div>
                 <div class="media">
                     <span class="socials facebook"> <a href=""><i class="fa-brands fa-facebook"></i></a></i></span>
@@ -48,8 +54,6 @@
                     <span class="socials instagram"> <a href=""><i class="fa-brands fa-square-instagram"></i></a></span>
                     <span class="socials linkedin"> <a href=""><i class="fa-brands fa-linkedin"></i></a></span>
                 </div>
-
-
             </div>
             <nav class="nav">
                 <ul>
@@ -58,20 +62,205 @@
                     <li><a href="">Services</a></li>
                     <li><a href="">Gallery</a></li>
                     <li><a href="">Testimonial</a></li>
-
                     <li><a href="">Contact us</a></li>
                 </ul>
-
             </nav>
+        </div>
+    </header>
+    </div>
+    <section>
+        <!-- Simulate a smartphone / tablet -->
+        <div class="mobile-container">
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active">
+                    <div class="logo">
+                        <img src="./Images/LoyalLOGO.png" alt="logo" />
+                    </div>
+                </a>
+                <div id="myLinks">
+                    <ul>
+                        <li> <a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+    </section>
 
+    <section class="First-section">
+        <div class="First-section-container">
+            <div class="bgimage">
+                <!-- <h5> Welcome page</h5> -->
+            </div>
         </div>
 
-    </Header>
-    <section></section>
-    <footer></footer>
+    </section>
+    <section class="Second-section">
+       
+        <div class="Second-section-left">
+            <a href="#"> <img src="./Images/isaac-quesada-FiIgXyC3t84-unsplash.jpg"></a>
+        </div>
+        <div class="Second-section-right">
+            <h5> <i>Welcome to Loyal Adult Daycare</i> </h5>
+            <h1>Helping each other can make world better</h1>
+            <p>We fully comply with Minnesota Statute, Section 626.557, which requires the reporting of suspected
+            maltreatment of vulnerable adults, provides for the voluntary reporting of maltreatment of vulnerable
+            adults, requires the investigation of the reports, and provides protective and counseling services in
+            appropriate cases.</p>
+            
+            
+            
+            
+        </div>
+    </section>
+    <section class="Third-section">
+        <h5>lorem ipsum</h5>
+
+        <div class="Third-section-row first">
+            <img src="./Images/entryimg.JPG">
+            <img src="./Images/entry2.JPG">
+            <img src="./Images/reception.JPG">
+            <img src="./Images/reception2.JPG">
+            <img src="./Images/reception3.JPG">
+        </div>
+            <h5>lorem ipsum</h5>
+        <div class="Third-section-row second">
+
+            <img src="./Images/tvroom2.JPG">
+            <img src="./Images/tvroom1.JPG">
+            <img src="./Images/livingroom2.JPG">
+            <img src="./Images/livingroom1.JPG">
+            <img src="./Images/livingroom3.JPG">
+            
+        </div>
+        <h5>lorem ipsum</h5>
+
+        <div class="Third-section-row third">
+            <img src="./Images/HomePreview.jpg">
+            <img src="./Images/gym1.JPG">
+            <img src="./Images/gym2.JPG">
+            <img src="./Images/tearoom.JPG">
+            <img src="./Images/liberary.JPG">
+        </div>
+     
+        <div class="Third-section-center">
+
+            <h5>Third Section Center</h5>
+        </div>
+        <div class="Third-section-right">
+
+            <h5>Third Section right</h5>
+        </div>
+    </section>
+    <section class="Fourth-section">
+        <div class="Forth-section-left">
+
+            <h5>Forth Section left</h5>
+        </div>
+        <div class="Forth-section-center">
+
+            <h5>Forth Section Center</h5>
+        </div>
+        <div class="Forth-section-right">
+
+            <h5>Forth Section right</h5>
+        </div>
+
+    </section>
 
 
 
+</body>
+
+<footer>
+    <div class="footerWrapper">
+        <div class="footerWrapper-services">
+            <h5 onclick="myFunctionList(0)"> Services </h5>
+            <ul class="footerList">
+                <li>Transportation</li>
+                <li>Pick Up and Drop Off</li>
+                <li>Meals and Snacks</li>
+                <li>Handicap Accessablity</li>
+            </ul>
+        </div>
+        <div class="footerWrapper-healthServices">
+            <h5 onclick="myFunctionList(1)">Health Services </h5>
+            <ul class="footerList">
+                <li>Health Monitoring</li>
+                <li>Health Education and Counseling</li>
+                <li>Health Resources</li>
+            </ul>
+        </div>
+        <div class="footerWrapper-policies">
+            <h5 onclick="myFunctionList(2)">Policies</h5>
+            <ul class="footerList">
+                <li>Pets</li>
+                <li>Smoking Policy</li>
+                <li>Health Resources</li>
+            </ul>
+        </div>
+        <div class="footerWrapper-hours">
+            <h5 onclick="myFunctionList(3)">Hours of Operation</h5>
+            <ul class="footerList">
+                <li> Monday: 8:00AM - 5:00PM</li>
+                <li> Tuesday: 8:00AM - 5:00PM</li>
+                <li> Wednsday: 8:00AM - 5:00PM</li>
+                <li> Thursday: 8:00AM - 5:00PM</li>
+                <li> Friday: 8:00AM - 5:00PM</li>
+                <li> Saturday: Closed</li>
+                <li> Sunday: Closed</li>
+            </ul>
+        </div>
+        <div class="footerWrapper-holidays">
+            <h5 onclick="myFunctionList(4)">Holidays</h5>
+            <ul class="footerList">
+                <li>New Year's Day</li>
+                <li>Memorial Day</li>
+                <li>Independence Day</li>
+                <li>Eid al-Fitr</li>
+                <li>Labor Day</li>
+                <li>Eid al-Adha</li>
+                <li>Thanksgiving Day & The day after
+                </li>
+                <li>Christmas Eve & Christmas Day</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+    function myFunctionList(z) {
+        var x = document.getElementsByClassName("footerList");
+
+        if (x[z].style.display === "block") {
+            x[z].style.display = "none";
+        }
+        else {
+            x[z].style.display = "block";
+        }
+        for (let i = 0; i < x.length; i++) {
+            if (i != z) {
+                x[i].style.display = "none";
+            }
+        }
+    }
+</script>
 </body>
 
 </html>
