@@ -94,7 +94,11 @@
   height: 800px;
 } */
 .First-section-container {
+<<<<<<< HEAD
   background-image: url(../Images/adultLove2.jpg);
+=======
+  background-image: url(/Images/adultLove2.jpg);
+>>>>>>> eab7fb16fd4bb21bd773c7c177b1b209050a6fdd
   height:714px;
   width:100%;
   background-position:center center;
@@ -140,6 +144,7 @@
 
 
 }
+<<<<<<< HEAD
 .Third-section{
   width: 100vw;
   
@@ -173,6 +178,8 @@
   transform: scale(1.08);
 }
 
+=======
+>>>>>>> eab7fb16fd4bb21bd773c7c177b1b209050a6fdd
 
 
  
@@ -273,6 +280,7 @@
   .Second-section-left{
     width: 100%;
   }
+<<<<<<< HEAD
   .Third-section-row {
     display: block;
   
@@ -300,6 +308,8 @@
 
 
  }
+=======
+>>>>>>> eab7fb16fd4bb21bd773c7c177b1b209050a6fdd
 
   /* body end */
   /* footer start */
