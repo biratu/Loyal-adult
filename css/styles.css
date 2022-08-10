@@ -94,7 +94,11 @@
   height: 800px;
 } */
 .First-section-container {
+<<<<<<< HEAD
+  background-image: url(../Images/adultLove2.jpg);
+=======
   background-image: url(/Images/adultLove2.jpg);
+>>>>>>> eab7fb16fd4bb21bd773c7c177b1b209050a6fdd
   height:714px;
   width:100%;
   background-position:center center;
@@ -140,6 +144,42 @@
 
 
 }
+<<<<<<< HEAD
+.Third-section{
+  width: 100vw;
+  
+}
+.Third-section-row{
+  display: flex;
+  /* width: 90%; */
+  align-content: center;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+.Third-section-row img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 10px 10px 20px 20px;
+  justify-content: space-between;
+  /* border-top-right-radius: 25px; */
+  /* border-top-left-radius: 25px; */
+  border-radius: 35px;
+
+  
+}
+.Third-section-row img:hover{
+  border: 2px solid white;
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+=======
+>>>>>>> eab7fb16fd4bb21bd773c7c177b1b209050a6fdd
 
 
  
@@ -240,6 +280,36 @@
   .Second-section-left{
     width: 100%;
   }
+<<<<<<< HEAD
+  .Third-section-row {
+    display: block;
+  
+    align-content: center;
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+
+  width: 300%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 5px;
+  
+  }
+  .Third-section-row .first{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  .Third-section-row::-webkit-scrollbar {
+    display: none;
+}
+  .Third-section-row img{
+    width: 20%;
+
+
+ }
+=======
+>>>>>>> eab7fb16fd4bb21bd773c7c177b1b209050a6fdd
 
   /* body end */
   /* footer start */
